@@ -2,19 +2,17 @@
 
 /**
  * sfSmartContextPlugin configuration.
- * 
- * @package     sfSmartContextPlugin
- * @subpackage  config
+ *
  * @author      Tomasz Jakub Rup <tomasz.rup@gmail.com>
  */
 class sfSmartContextPluginConfiguration extends sfPluginConfiguration
 {
-  const VERSION = '1.0.0-DEV';
+    const VERSION = '1.0.0-DEV';
 
-  /**
-   * @see sfPluginConfiguration
-   */
-  public function initialize()
-  {
-  }
+    /**
+     * @see sfPluginConfiguration
+     */
+    public function initialize()
+    {
+    }
 }
