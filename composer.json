@@ -1,0 +1,21 @@
+{
+    "name": "tomasz-rup/sf-smartcontext-plugin",
+    "type": "symfony1-plugin",
+    "description": "symfony 1.x plugin to add SmartContext integration",
+    "keywords": ["symfony1", "smartcontext"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Jakub Rup",
+            "email": "tomasz.rup@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/tomi77/sfSmartContextPlugin/issues",
+      "source": "https://github.com/tomi77/sfSmartContextPlugin"
+    },
+    "require": {
+        "symfony/symfony1": "*"
+    }
+}

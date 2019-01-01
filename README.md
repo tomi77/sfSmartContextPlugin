@@ -9,7 +9,7 @@ symfony 1.x plugin to add [SmartContext](http://www.smartcontext.pl/) integratio
   * Install the plugin:
 
     ~~~sh
-    symfony plugin:install sfSmartContextPlugin
+    composer require tomasz-rup/sf-smartcontext-plugin
     ~~~
 
   * Add the sfSmartContextFilter to your filter chain:
