@@ -1,25 +1,29 @@
-# SmartContext integration Plug-in
+# sfSmartContextPlugin
 
-The `sfSmartContextPlugin` offers the integrate with [SmartContext](http://www.smartcontext.pl/).
+symfony 1.x plugin to add [SmartContext](http://www.smartcontext.pl/) integration.
 
 ## Instalation
 
   * Install the plugin:
 
-        $ symfony plugin:install sfSmartContextPlugin
+    ~~~sh
+    symfony plugin:install sfSmartContextPlugin
+    ~~~
 
   * Add the sfSmartContextFilter to your filter chain:
 
-        rendering: ~
-        security:  ~
+    ~~~yaml
+    rendering: ~
+    security:  ~
 
-        # insert your own filters here
-        smart_context:
-          class: sfSmartContextFilter
+    # insert your own filters here
+    smart_context:
+      class: sfSmartContextFilter
 
-        cache:     ~
-        common:    ~
-        execution: ~
+    cache:     ~
+    common:    ~
+    execution: ~
+    ~~~
 
 ## Configuration
 
@@ -27,16 +31,20 @@ The `sfSmartContextPlugin` offers the integrate with [SmartContext](http://www.s
 
     Global configuration is done in your application's app.yml file:
 
-        all:
-          smart_context_plugin:
-            site:    http__yoursite.com
-            enabled: true
+    ~~~yaml
+    all:
+      smart_context_plugin:
+        site:    http__yoursite.com
+        enabled: true
+    ~~~
 
   * Configuration per module
 
     To disable SmartContext in action **index** in module **default** add to your  ``apps/frontend/modules/default/config/module.yml`` file following configuration:
 
-        all:
-          index:
-            smart_context:
-              enabled: false
+    ~~~yaml
+    all:
+      index:
+        smart_context:
+          enabled: false
+    ~~~
