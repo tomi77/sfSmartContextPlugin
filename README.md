@@ -1,5 +1,7 @@
 # sfSmartContextPlugin
 
+[![StyleCI](https://github.styleci.io/repos/49590448/shield?branch=master)](https://github.styleci.io/repos/49590448)
+
 symfony 1.x plugin to add [SmartContext](http://www.smartcontext.pl/) integration.
 
 ## Instalation
